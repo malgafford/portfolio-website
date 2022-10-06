@@ -17,10 +17,18 @@ color: #212529;
 
 header {
   background-color: #E9ECEF;
+  padding: 0.625em 0;
+  margin: 0;
+  text-align: center;
+  box-shadow: 3px 18px 26px 0px rgba(50, 50, 50, 0.28);
+  position: relative;
 }
 
 footer {
   background-color: #E9ECEF;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
 }
 
 h1, h2, h3, h4 {
@@ -94,4 +102,73 @@ a:focus {
 .button-resume:hover {
   text-decoration: none;
   opacity: 0.8;
+}
+
+/* Layout Styling */
+
+.container {
+  padding: 0 15px;
+}
+
+.row {
+  margin: 25px 0;
+}
+
+#work-section .row {
+  padding: 25px;
+  border-bottom: 3px solid #212529;
+}
+
+#hero-section h1 {
+  text-align: center;
+  margin: 0;
+  padding: 0.67em 0;
+}
+
+.logo {
+  max-width: 150px;
+  text-align: center;
+}
+
+nav {
+  display: inline-block;
+  width: 100%;
+}
+
+nav > ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav > ul > li {
+  display: inline-block;
+}
+
+nav > ul > li > a {
+  padding: 0 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #212529;
+}
+
+#hero-section {
+  background-color: #E9ECEF;
+  padding: 20px 0;
+  display: inline-block;
+  width: 100%;
+}
+
+#social ul {
+  list-style-type: none;
+}
+
+#social ul li {
+  display: inline-block;
+}
+
+#social ul li a {
+  padding: 10px;
+  color: #212529;
+  font-size: 35px;
+  margin: 0px;
 }
