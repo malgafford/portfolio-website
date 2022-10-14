@@ -16,7 +16,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
-<body>
+<body id="about-page">
   <header>
     <div class="container">
       <div>
@@ -34,13 +34,15 @@
   <main>
     <div class="container">
       <div id="about-section">
+        <div>
         <h1>About</h1>
         <picture>
-          <img src="img/about_me_img/aboutMeImg.jpg" alt="Picture of Mallory Gafford">
+          <img class="aboutMeImg" src="img/about_me_img/aboutMeImg.jpg" alt="Picture of Mallory Gafford">
         </picture>
-        <h2>My Story</h2>
       </div>
-      <div>
+        <div>
+        <h2>My Story</h2>
+      <div class="about-section-p">
         <p>Hello! My name is Mallory Gafford. I’m a
           designer currently living in beautiful Knoxville,
           TN.
@@ -59,13 +61,13 @@
           for a team who shares that same passion. I love
           to design and create things, and would love to
           help build solutions with you!</p>
-        <a href="files/Mallory_Gafford_Resume" target="_blank" class="button-resume">Download My Resume</a>
       </div>
-      <div>
+      <a href="files/Mallory_Gafford_Resume" target="_blank" class="button-resume">Download My Resume</a>
+</div>
         <div>
           <h2>Skills & Tools</h2>
-        </div>
-        <div>
+
+        <div class="column col-md-6">
           <h3>Skills</h3>
           <ul>
             <li>UI/Visual Design</li>
@@ -79,7 +81,7 @@
             <li>Style Guides</li>
           </ul>
         </div>
-        <div>
+        <div class="column col-md-6">
           <h3>Tools</h3>
           <ul>
             <li>Adobe XD</li>
@@ -91,10 +93,9 @@
             <li>Canva</li>
             <li>Microsoft Office, Google Suite</li>
           </ul>
+          </div>
         </div>
-
-      </div>
-
+        </div>
     </div>
   </main>
   <footer>
