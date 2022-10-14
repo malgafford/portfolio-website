@@ -47,6 +47,8 @@ h2 {
 
 img {
   width: 100%;
+  max-width: 100%;
+  height: auto;
 }
 
 a {
@@ -135,16 +137,20 @@ a:focus {
 .logo {
   max-width: 150px;
   text-align: center;
+  display: inline-block;
+  vertical-align: top;
 }
 
 nav {
-  display: inline-block;
+display: inline-block;
   width: 100%;
+  vertical-align: top;
 }
 
 nav>ul {
   list-style-type: none;
   padding: 0;
+  display: inline-block;
 }
 
 nav>ul>li {
@@ -194,6 +200,144 @@ nav>ul>li>a:active {
   text-align: center;
 }
 
+#about-section h1 {
+  text-align: center;
+}
+
+.about-section-p {
+  text-align: left;
+}
+
+.aboutMeImg {
+  width: 40%;
+}
+
 .title {
   text-align: center;
+}
+
+[class*="col-"] {
+  float: left;
+text-align: left;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/*=========
+Animation
+=========*/
+
+svg {
+  width: 50%;
+max-width: 100%;
+height: auto;
+}
+
+@keyframes changeColor {
+  from {fill: #6C63FF;}
+   to {fill: #FD9638;}
+}
+
+#Vector_25 {
+  animation-duration: 4s;
+  animation-name: changeColor;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+}
+
+#Vector_15 {
+  animation-duration: 4s;
+  animation-name: changeColor;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+}
+
+#Vector_3 {
+  animation-duration: 4s;
+  animation-name: changeColor;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(-5deg);
+  }
+
+  70% {
+    transform: rotate(0deg);
+  }
+}
+
+#wave_2 {
+  animation-duration: 2s;
+  animation-name: rotate;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+transform-origin: left;
+}
+
+/* ==============================
+Medium devices (640px and larger)
+================================= */
+@media only screen and (min-width: 640px) {
+
+  header {
+    text-align: unset;
+  padding-top: 32px;
+  }
+
+.logo {
+  float: left;
+  padding-top: 8px;
+}
+
+  nav {
+  width: auto;
+  float: right;
+  }
+
+  .col-md-6 {
+    width: 50%;
+  }
+
+}
+
+
+/* =======
+Large devices (1024px and larger)
+=============*/
+@media only screen and (min-width: 1024px) {
+
+.col-lg-7 {
+  width: 60%;
+}
+
+.col-lg-5 {
+  width: 40%;
+}
+
+.container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+}
+
+/* =======
+X-large devices (1440px and larger)
+=============*/
+
+@media only screen and (min-width: 1440px) {
+
 }
