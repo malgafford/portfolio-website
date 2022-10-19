@@ -34,6 +34,8 @@ h2 {
   font-weight: 700;
 }
 
+#about-page h2 { margin-top: 0;}
+
 h3 {
   font-size: 1.75em;
   font-weight: 400;
@@ -76,6 +78,8 @@ a:hover {
   color: #212529;
   font-weight: 400;
   text-decoration: none;
+  margin-top: 16px;
+  margin-bottom: 16px;
   padding: 10px;
   border-radius: 3px;
   border: 2px solid #495057;
@@ -181,12 +185,24 @@ nav > ul > li > a {
     text-align: center;
 }
 
-.aboutMeImg {
-  width: 30%;
+#contact h2 {
+  margin-bottom: 0px;
 }
 
+#contact p {
+  padding-bottom: 16px;
+}
+
+.aboutMeImg {
+  width: 70%;
+}
 
 /*Style the social icons*/
+
+.social {
+  margin-top: 32px;
+}
+
 .social ul {
   list-style-type: none;
   padding: 0px;
@@ -287,6 +303,8 @@ transform-origin: left;
   padding: 10px;
 }
 
+
+
 /* ==============================
 Medium devices (640px and larger)
 ================================= */
@@ -311,6 +329,11 @@ Medium devices (640px and larger)
     padding-bottom: 40px;
   }
 
+  .col-4 {
+    width: 25%;
+    float: left;
+  }
+
 }
 
 
@@ -323,9 +346,6 @@ Large devices (1024px or larger)
     margin-left: auto;
     margin-right: auto;
   }
-  .col-lg-7 {
-    width: 60%;
-  }
 
   .col-lg-5 {
     width: 40%;
@@ -336,12 +356,16 @@ Large devices (1024px or larger)
     float: left;
     padding-bottom: 40px;
   }
-  .col-lg-8 {
-    width: 40%;
-    float: right;
-  }
 
-   #about-page .col-md-6 {
-     width: 100%;
-  }
+.col-lg-6 {
+  width: 50%;
+  float: left;
+  padding-bottom: 40px;
+}
+
+.col-lg-8 {
+  width: 100%;
+  float: left;
+}
+
 }
