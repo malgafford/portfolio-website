@@ -1,5 +1,4 @@
 /*-------------------------------------------Start Section---------------------------------------------*/
-
 /*setting the default width of an element to include the padding and the border via the box-sizing property and border-box value*/
 * {
   box-sizing: border-box;
@@ -8,13 +7,15 @@
 /*--------------------------------------------End Section---------------------------------------------*/
 /*-------------------------------------------Start Section---------------------------------------------*/
 /*default body settings*/
-
 body {
   background-color: #F8F9FA;
   font-family: 'Poppins', sans-serif;
-  font-size: 16px; /* Sets the font size to 16px */
-  font-weight: 300; /* Sets the font weight to 300 */
-  line-height: 1.6; /* Sets the line-height to 1.6 * the font-size */
+  font-size: 16px;
+  /* Sets the font size to 16px */
+  font-weight: 300;
+  /* Sets the font weight to 300 */
+  line-height: 1.6;
+  /* Sets the line-height to 1.6 * the font-size */
   color: #212529;
 }
 
@@ -27,14 +28,14 @@ h1 {
   font-weight: 700;
 }
 
-
-
 h2 {
   font-size: 2em;
   font-weight: 700;
 }
 
-#about-page h2 { margin-top: 0;}
+#about-page h2 {
+  margin-top: 0;
+}
 
 h3 {
   font-size: 1.75em;
@@ -43,34 +44,35 @@ h3 {
   margin-bottom: 0;
 }
 
-#about-page h3 { margin-top: 0;}
+#about-page h3 {
+  margin-top: 0;
+}
 
 h4 {
   font-size: 1.35em;
   font-weight: 400;
 }
 
-
 /*setting images to full-width*/
 img {
   width: 100%;
 }
 
-
 a {
   color: #212529;
-  text-decoration: none; /* No underlining */
+  text-decoration: none;
+  /* No underlining */
 }
+
 a:hover {
   color: #495057;
-  text-decoration: none; /* Underlining when hovering over a link */
+  text-decoration: none;
+  /* Underlining when hovering over a link */
 }
-
 
 .active a {
-    color: #495057;
+  color: #495057;
 }
-
 
 /*CSS code for the button class*/
 .button {
@@ -92,7 +94,6 @@ a:hover {
   text-decoration: none;
 }
 
-
 /*button rules for the mailto button*/
 .button-email {
   background-color: #495057;
@@ -103,7 +104,6 @@ a:hover {
 }
 
 /*button class hover and active state*/
-
 .button-email:hover {
   opacity: 0.8;
   color: #E9ECEF;
@@ -128,7 +128,6 @@ a:hover {
 
 /*Scroll to the top button*/
 #scrollBtn {
-
   position: fixed;
   bottom: 24px;
   right: 42px;
@@ -147,11 +146,9 @@ a:hover {
   opacity: 0.8;
 }
 
-
 /*--------------------------------------------End Section---------------------------------------------*/
 /*-------------------------------------------Start Section---------------------------------------------*/
 /*stye the page sections*/
-
 /*style the <header> element*/
 header {
   background-color: #E9ECEF;
@@ -168,15 +165,13 @@ header .logo {
 }
 
 /*Navigation Styling*/
-
-
-nav > ul {
+nav>ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
 }
 
-nav > ul > li > a {
+nav>ul>li>a {
   padding: 0 15px;
   text-transform: uppercase;
   font-weight: 700;
@@ -204,17 +199,17 @@ nav > ul > li > a {
   padding: 24px 0 0;
 }
 
-.navtoggle.responsive li  {
+.navtoggle.responsive li {
   display: block;
   padding: 10px 0;
 }
 
-.navtoggle.responsive li:last-child  {
+.navtoggle.responsive li:last-child {
   padding: 0 0 10px;
 }
 
 .logo {
-max-width: 150px;
+  max-width: 150px;
 }
 
 #hero-section {
@@ -230,9 +225,9 @@ max-width: 150px;
 }
 
 #contact {
-    background-color: #E9ECEF;
-    padding: 20px;
-    text-align: center;
+  background-color: #E9ECEF;
+  padding: 20px;
+  text-align: center;
 }
 
 #contact h2 {
@@ -247,10 +242,7 @@ max-width: 150px;
   width: 70%;
 }
 
-
-
 /*Style the social icons*/
-
 .social {
   margin-top: 32px;
 }
@@ -269,32 +261,40 @@ max-width: 150px;
   color: #212529;
   font-size: 35px;
 }
+
 /*--------------------------------------------End Section---------------------------------------------*/
 /*-------------------------------------------Start Section---------------------------------------------*/
 /* Layout styling */
-
 .container {
   padding: 0 15px;
 }
 
 .row {
-  margin: 25px 0; /* 25px top and bottom, 0 left and right */
+  margin: 25px 0;
+  /* 25px top and bottom, 0 left and right */
 }
 
-#work .row { padding-bottom: 20px; }
+#work .row {
+  padding-bottom: 20px;
+}
 
 /*--------------------------------------------End Section---------------------------------------------*/
 /*-------------------------------------------Start Section---------------------------------------------*/
 /*SVG animation*/
 svg {
   width: 50%;
-max-width: 100%;
-height: auto;
+  max-width: 100%;
+  height: auto;
 }
 
 @keyframes changeColor {
-  from {fill: #6C63FF;}
-   to {fill: #FD9638;}
+  from {
+    fill: #6C63FF;
+  }
+
+  to {
+    fill: #FD9638;
+  }
 }
 
 #Vector_25 {
@@ -336,13 +336,12 @@ height: auto;
   animation-name: rotate;
   animation-iteration-count: infinite;
   animation-direction: alternate;
-transform-origin: left;
+  transform-origin: left;
 }
 
 /*--------------------------------------------End Section---------------------------------------------*/
 /*-------------------------------------------Start Section---------------------------------------------*/
 /*Media Queries*/
-
 /*clear page flow*/
 .row::after {
   content: "";
@@ -354,8 +353,6 @@ transform-origin: left;
 [class*="col-"] {
   padding: 10px;
 }
-
-
 
 /* ==============================
 Medium devices (640px and larger)
@@ -375,11 +372,11 @@ Medium devices (640px and larger)
     float: right;
   }
 
-  nav > ul {
-  margin: 1em 0;
-}
+  nav>ul {
+    margin: 1em 0;
+  }
 
-  nav > ul > li {
+  nav>ul>li {
     display: inline-block;
   }
 
@@ -401,9 +398,7 @@ Medium devices (640px and larger)
   .navtoggle li:last-child {
     display: none;
   }
-
 }
-
 
 /* ==============================
 Large devices (1024px or larger)
@@ -425,16 +420,14 @@ Large devices (1024px or larger)
     padding-bottom: 40px;
   }
 
-.col-lg-6 {
-  width: 50%;
-  float: left;
-  padding-bottom: 40px;
-}
+  .col-lg-6 {
+    width: 50%;
+    float: left;
+    padding-bottom: 40px;
+  }
 
-.col-lg-8 {
-  width: 100%;
-  float: left;
-}
-
-
+  .col-lg-8 {
+    width: 100%;
+    float: left;
+  }
 }

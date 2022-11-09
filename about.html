@@ -1,122 +1,133 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <meta name="author" content="Mallory Gafford">
-    <meta name="description" content="Get to know Mallory Gafford">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <script src="https://kit.fontawesome.com/fa89f44857.js" crossorigin="anonymous"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <title>About Mallory Gafford</title>
-  </head>
-  <body id="about-page">
-    <!-- For the header -->
-	<header>
-		<!-- For the navigation -->
+
+<head>
+  <meta charset="utf-8">
+  <meta name="author" content="Mallory Gafford">
+  <meta name="description" content="Get to know Mallory Gafford">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <script src="https://kit.fontawesome.com/fa89f44857.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <title>About Mallory Gafford</title>
+</head>
+
+<body id="about-page">
+  <!-- For the header -->
+  <header>
+    <!-- For the navigation -->
     <div class="container">
       <div class="navtoggle" id="myNavtoggle">
-            <a href="index.html">
-			 <img src="img/logo/logo.png" class="logo" alt="Logo" >
-            </a>
-            <nav>
-              <ul class="navigation">
-                <li class="active"><a href="index.html">Work</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="#contact" onclick="menuToggle()">Contact</a></li>
-                <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fas fa-bars"></i></a></li>
-              </ul>
-            </nav>
+        <a href="index.html">
+          <img src="img/logo/logo.png" class="logo" alt="Logo">
+        </a>
+        <nav>
+          <ul class="navigation">
+            <li class="active"><a href="index.html">Work</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="#contact" onclick="menuToggle()">Contact</a></li>
+            <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fas fa-bars"></i></a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- For the hero section -->
+    <div id="hero" style="margin-bottom: 40px;">
+      <div class="container">
+        <h1>About</h1>
+      </div>
+    </div>
+    <div class="container">
+      <div id="about-section">
+        <!--For the image, My Story and Skills and tools sections-->
+        <div>
+          <div class="column col-md-6 col-lg-6">
+            <picture>
+              <source srcset="img/about_me_img/aboutMeImg.jpg" media="(max-width:767px)">
+              <img src="img/about_me_img/aboutMeImg.jpg" alt="Picture of Mallory Gafford" class="aboutMeImg">
+            </picture>
           </div>
-		</div>
-	</header>
-
-    <main>
-        <!-- For the hero section -->
-        <div id="hero" style="margin-bottom: 40px;">
-            <div class="container">
-                <h1>About</h1>
+          <div>
+            <!--For My Story and Skills and tools sections-->
+            <div class="column col-md-6 col-lg-6">
+              <!--Column one-->
+              <h2>My story</h2>
+              <p>Hello! My name is Mallory Gafford. I’m a designer currently living in beautiful Knoxville, TN.</p>
+              <p>I graduated with my Bachelors in Business Administration and started working in technical writing. As a technical writer, I learned how to translate technical terms into user-friendly language and focus on the user’s experience which
+                led me to UX/UI design. I started learning more about UX and UI and began CareerFoundry's UI Design Program. I fell in love with UX and UI, and have been working on design projects ever since.I love being able to make technology
+                useful, usable, and beautiful for people and I’m looking for a team who shares that same passion. I love to design and create things, and would love to help build solutions with you!
+              </p>
+              <a href="files/Mallory_Gafford_Resume.pdf" target="_blank" class="button-resume">Download My Resume</a>
             </div>
-        </div>
-        <div class="container">
-            <div id="about-section"><!--For the image, My Story and Skills and tools sections-->
-                <div>
-                  <div class="column col-md-6 col-lg-6">
-                    <picture>
-                      <source srcset="img/about_me_img/aboutMeImg.jpg" media="(max-width:767px)">
-                      <img src="img/about_me_img/aboutMeImg.jpg" alt="Picture of Mallory Gafford" class="aboutMeImg">
-                    </picture>
-                  </div>
-                    <div><!--For My Story and Skills and tools sections-->
-                        <div class="column col-md-6 col-lg-6"><!--Column one-->
-                            <h2>My story</h2>
-                            <p>Hello! My name is Mallory Gafford. I’m a designer currently living in beautiful Knoxville, TN.</p>
-                            <p>I graduated with my Bachelors in Business Administration and started working in technical writing. As a technical writer, I learned how to translate technical terms into user-friendly language and focus on the user’s experience which led me to UX/UI design. I started learning more about UX and UI and began CareerFoundry's UI Design Program. I fell in love with UX and UI, and have been working on design projects ever since.I love being able to make technology useful, usable, and beautiful for people and I’m looking for a team who shares that same passion. I love to design and create things, and would love to help build solutions with you!
-                            </p>
-                            <a href="files/Mallory_Gafford_Resume.pdf" target="_blank" class="button-resume">Download My Resume</a>
-                        </div>
-                        <div class="column col-lg-8"><!--Column two-->
-                            <h2>Skills &amp; Tools</h2>
-                            <div class="column col-md-6 col-lg-6"><!--Column two, row one-->
-                                <h3>Relevant Skills</h3>
-                                <ul>
-                                    <li>UI/Visual Design</li>
-                                    <li>Wireframing</li>
-                                    <li>Prototyping</li>
-                                    <li>User Flows</li>
-                                    <li>User Research</li>
-                                    <li>Competitor Analysis</li>
-                                    <li>Human-Centered Mindset</li>
-                                    <li>Usability Testing</li>
-                                    <li>Style Guides</li>
-                                </ul>
-                            </div>
-                            <div class="column col-md-6 col-lg-6"><!--Column two, row two-->
-                                <h3>Tools I use</h3>
-                                <ul>
-                                    <li>Adobe XD</li>
-                                    <li>Figma</li>
-                                    <li>HTML5</li>
-                                    <li>CSS3</li>
-                                    <li>Adobe Acrobat</li>
-                                    <li>Marvel</li>
-                                    <li>Canva</li>
-                                    <li>Microsoft Office, Google Suite</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div class="column col-lg-8">
+              <!--Column two-->
+              <h2>Skills &amp; Tools</h2>
+              <div class="column col-md-6 col-lg-6">
+                <!--Column two, row one-->
+                <h3>Relevant Skills</h3>
+                <ul>
+                  <li>UI/Visual Design</li>
+                  <li>Wireframing</li>
+                  <li>Prototyping</li>
+                  <li>User Flows</li>
+                  <li>User Research</li>
+                  <li>Competitor Analysis</li>
+                  <li>Human-Centered Mindset</li>
+                  <li>Usability Testing</li>
+                  <li>Style Guides</li>
+                </ul>
+              </div>
+              <div class="column col-md-6 col-lg-6">
+                <!--Column two, row two-->
+                <h3>Tools I use</h3>
+                <ul>
+                  <li>Adobe XD</li>
+                  <li>Figma</li>
+                  <li>HTML5</li>
+                  <li>CSS3</li>
+                  <li>Adobe Acrobat</li>
+                  <li>Marvel</li>
+                  <li>Canva</li>
+                  <li>Microsoft Office, Google Suite</li>
+                </ul>
+              </div>
             </div>
+          </div>
         </div>
-    </main>
+      </div>
+    </div>
+  </main>
 
 
-<!-- For the footer  -->
-	<footer id="contact" style="clear: both;">
-		<div class="container">
-            <h2>Get in touch</h2>
-            <p>I would love to connect with you!</p>
+  <!-- For the footer  -->
+  <footer id="contact" style="clear: both;">
+    <div class="container">
+      <h2>Get in touch</h2>
+      <p>I would love to connect with you!</p>
       <div><a href="mailto:mallory1gafford@gmail.com" class="button-email">Email Me</a></div>
       <div class="social">
-            <ul>
-              <li><a href="https://www.linkedin.com/in/mallory-gafford/" target="_blank">
-                  <i class="fa-brands fa-linkedin"></i></a></li>
-              <li><a href="https://www.behance.net/mallorygafford" target="_blank">
-                  <i class="fa-brands fa-square-behance"></i></a></li>
-              <li><a href="https://dribbble.com/malui" target="_blank">
-                  <i class="fa-brands fa-square-dribbble"></i></a></li>
-              <li><a href="https://github.com/malgafford" target="_blank">
-                  <i class="fa-brands fa-square-github"></i></a></li>
-            </ul>
-        </div>
-            <p>Copyright John Doe 2022</p>
-        </div>
+        <ul>
+          <li><a href="https://www.linkedin.com/in/mallory-gafford/" target="_blank">
+              <i class="fa-brands fa-linkedin"></i></a></li>
+          <li><a href="https://www.behance.net/mallorygafford" target="_blank">
+              <i class="fa-brands fa-square-behance"></i></a></li>
+          <li><a href="https://dribbble.com/malui" target="_blank">
+              <i class="fa-brands fa-square-dribbble"></i></a></li>
+          <li><a href="https://github.com/malgafford" target="_blank">
+              <i class="fa-brands fa-square-github"></i></a></li>
+        </ul>
+      </div>
+      <p>Copyright John Doe 2022</p>
+    </div>
 
-	</footer>
+  </footer>
   <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
   <script src="js/scripts.js"></script>
-  </body>
+</body>
+
 </html>
